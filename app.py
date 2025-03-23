@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Cargar los datos
-file_path = "Shot_plan.xlsx"
+file_path = "Shot_plan_CH.xlsx"
 data = {
     "General": pd.read_excel(file_path, index_col=0, sheet_name='General'),
     "Target": pd.read_excel(file_path, index_col=0, sheet_name='Target'),
